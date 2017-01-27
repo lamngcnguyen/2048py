@@ -4,6 +4,7 @@
 from random import randint
 import os, sys
 import time
+from getch import getch, pause
 
 clear = lambda: os.system('clear')
 
@@ -137,7 +138,7 @@ point = 0
 printMatrix()
 
 while t == 0:
-    navi = raw_input() #bien dieu khien huong
+    navi = getch() #bien dieu khien huong
     if navi == "s":
         turnDown()
     elif navi == "w":
