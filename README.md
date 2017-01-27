@@ -10,4 +10,5 @@ I use the getch() function from  <a href="https://pypi.python.org/pypi/py-getch/
 Return the "W" key to turn up, "S" to turn down, "A" to turn left, "D" to turn right.
 
 Update_260117: I change the coding format and the algorithm. Still have not had the "Game over" function. Instead, "list index out of range" error will stop you.
+
 Update_270117: getch() function update. Add point calculating feature.
